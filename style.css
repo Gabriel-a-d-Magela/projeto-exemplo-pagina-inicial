@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: rgb(219, 219, 219);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container1 {
+    display: flex;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50vw;
+    height: 100vh;
+
+    background-color: rgb(181, 230, 235);
+}
+
+.conteudo {
+    text-align: center;
+    padding: 30px;
+}
+
+.conteudo > h1 {
+    margin-bottom: 30px;
+}
+
+.conteudo > p {
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+.conteudo > a > button {
+    padding: 25px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.239) 4px 4px 7px;
+}
+
+.conteudo > a > button:hover {
+    background-color: rgb(37, 255, 255);
+    cursor: pointer;
+}
+
+.conteudo > a > button:active {
+    box-shadow: none;
+}
+
+.container3 {
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+
+    background-color: rgb(215, 215, 215);
+    background-image: url('imagens/paisagem-montanha.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
